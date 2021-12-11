@@ -1,1 +1,2 @@
-asdhkjahs
+#powershell command to create organizational unit
+New-ADOrganizationalUnit -Name "UserAccounts" -Path "ou=max,DC=max,DC=local"
